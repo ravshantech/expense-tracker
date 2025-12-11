@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f4f4;
+    padding: 20px;
+}
+
+.container {
+    max-width: 500px;
+    margin: auto;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.form-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form-section input,
+.form-section select {
+    padding: 10px;
+    font-size: 16px;
+}
+
+#add-btn {
+    padding: 10px;
+    background: dodgerblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.summary {
+    margin-top: 20px;
+    background: #eee;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+}
+
+li {
+    background: #fafafa;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+}
